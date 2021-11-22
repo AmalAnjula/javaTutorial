@@ -1,0 +1,13 @@
+package com.amal.proxy;
+
+import java.awt.*;
+
+public class ProxyData  {
+    public static void main(String[] args) {
+        Data data=new CashData("IMF.bin ");
+        data.showData();
+
+        data.showData();
+        }
+
+}
