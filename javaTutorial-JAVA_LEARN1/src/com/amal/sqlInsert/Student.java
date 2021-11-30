@@ -1,4 +1,4 @@
-package com.amal.sqlinsert;
+package com.amal.sqlInsert;
 
 public class Student {
     private String name;

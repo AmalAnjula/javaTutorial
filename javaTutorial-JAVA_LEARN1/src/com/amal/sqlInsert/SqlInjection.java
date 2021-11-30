@@ -1,4 +1,4 @@
-package com.amal.sqlinsert;
+package com.amal.sqlInsert;
 import java.sql.*;
 
 public class SqlInjection extends AddStudent {

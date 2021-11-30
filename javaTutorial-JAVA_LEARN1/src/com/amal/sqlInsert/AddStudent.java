@@ -1,4 +1,4 @@
-package com.amal.sqlinsert;
+package com.amal.sqlInsert;
 
 public class AddStudent extends Student{
     public AddStudent(String name, int age, String password, int id) {
