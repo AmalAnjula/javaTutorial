@@ -2,22 +2,22 @@ package com.amal.encapsulation;
 
 class Person {
 
-    private int CardNo;
-    public String Name;
-    private int Key = 0xF0E0;
+    private int cardNo;
+    public String name;
+    private int key = 0xF0E0;
 
     @Override
     public String toString() {
         return "Person{" +
-                "CardNo=" + CardNo +
+                "CardNo=" + cardNo +
                 '}';
     }
 
     public int getCardNo() {
-        return CardNo - Key;
+        return cardNo - key;
     }
 
     public void setCardNo(int cardNo) {
-        CardNo = cardNo + Key;
+        this.cardNo = cardNo + key;
     }
 }

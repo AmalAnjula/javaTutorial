@@ -1,4 +1,4 @@
-package com.amal.sqlInsert;
+package com.amal.sqlinsert;
 import java.sql.*;
 
 public class SqlInjection extends AddStudent {
@@ -18,7 +18,7 @@ public class SqlInjection extends AddStudent {
 
             result = stmt.executeUpdate();
             con.close();
-            System.out.println("added ok");
+            System.out.println("added ok.result");
 
         } catch (Exception e) {
             System.out.printf(e.toString());

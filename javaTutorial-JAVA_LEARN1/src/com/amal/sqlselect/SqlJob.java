@@ -1,13 +1,9 @@
-package com.amal.sqlSelect;
+package com.amal.sqlselect;
 
 import java.sql.*;
 
 public class SqlJob extends FindStudent {
-
-    private String idStr="";
-
-
-
+    private String idstr ="";
     private void findStudent(String id) {
         try {
             Connection con = DriverManager.getConnection(
@@ -32,7 +28,7 @@ public class SqlJob extends FindStudent {
         }
     }
     public void studentId(String idStr) {
-        this.idStr = idStr;
-        findStudent(this.idStr);
+        this.idstr = idStr;
+        findStudent(this.idstr);
     }
 }

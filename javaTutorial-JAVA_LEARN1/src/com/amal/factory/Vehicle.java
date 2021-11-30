@@ -1,6 +1,6 @@
 package com.amal.factory;
 
-public class vehicle  {
+public class Vehicle {
 
     void showSpec() {
 

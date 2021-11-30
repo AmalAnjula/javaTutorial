@@ -1,4 +1,4 @@
-package com.amal.sqlInsert;
+package com.amal.sqlinsert;
 
 public class Student {
     private String name;
@@ -47,8 +47,7 @@ public class Student {
     }
 
     public void addNow() {
-        SqlInjection qq=new SqlInjection(name,age,password,id);
-
+      //  SqlInjection addNewStudent=new SqlInjection(name,age,password,id);
     }
 
 

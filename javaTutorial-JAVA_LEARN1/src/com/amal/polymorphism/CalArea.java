@@ -1,6 +1,6 @@
 package com.amal.polymorphism;
 
-class Cal_Aread{
+class CalAread {
 
     private float result;
     public void FindArea(float rad){

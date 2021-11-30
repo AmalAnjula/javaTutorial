@@ -1,4 +1,4 @@
-package com.amal.sqlUpdate;
+package com.amal.sqlupdate;
 
 public class EditData {
     public static void main(String[] args) {

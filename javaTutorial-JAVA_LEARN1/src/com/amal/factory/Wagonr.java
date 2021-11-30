@@ -1,6 +1,6 @@
 package com.amal.factory;
 
-public class WAGONR extends vehicle {
+public class Wagonr extends Vehicle {
 
     void showSpec() {
         System.out.println("Iam waon R");

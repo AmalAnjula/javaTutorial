@@ -1,10 +1,10 @@
 package com.amal.singleton;
 
-public class main {
+public class MainJob {
 
     public static void main(String[] args) {
-        doJobSeparate drink = new doJobSeparate();
-        doJobSeparate sleep = new doJobSeparate();
+        DoJobSeparate drink = new DoJobSeparate();
+        DoJobSeparate sleep = new DoJobSeparate();
         System.out.println(drink.hashCode());
         System.out.println(sleep.hashCode());
         doOtherJob run = doOtherJob.getInsDoOtherJob();

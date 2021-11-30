@@ -6,8 +6,8 @@ public class InheritanceEx {
         BIke bike=new BIke("CT100","Petrol","BFB-3223");
         bike.startNow();
         Car car=new Car("Aqua","Hybrid","CBB3212",5);
-        car.StopNow(); // stopNow enna ona
+        car.stopNow(); // stopNow enna ona
       //  Vehicle common=new Vehicle();
-        car.RemoteLock();
+        car.remoteLock();
     }
 }

@@ -1,13 +1,13 @@
 package com.amal.factory;
 
-public class factorymain {
+public class Factorymain {
 
-    public  vehicle getVehicle(String type){ // Vehcile enna ona
+    public Vehicle getVehicle(String type){ // Vehcile enna ona
         if(type.equalsIgnoreCase("CHEEP")){
-            return new ALTO();
+            return new Alto();
         }
         else if(type.equalsIgnoreCase("MIDDLE")){
-            return new WAGONR();
+            return new Wagonr();
         }
         return  null; // return statemnt ekak danna
     }

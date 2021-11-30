@@ -3,7 +3,7 @@ package com.amal.builder;
 public class Client {
 
     private  String name;
-    public int age;
+    private int age;
     public String homeTown ;
     public String position;
 

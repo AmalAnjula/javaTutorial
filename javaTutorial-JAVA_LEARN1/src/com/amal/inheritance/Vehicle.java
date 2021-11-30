@@ -5,19 +5,11 @@ class  Vehicle{
     private String name;
     private String fuel;
     private String no;
-
     public Vehicle(String name, String fuel, String no) {
         this.name = name;
         this.fuel = fuel;
         this.no = no;
     }
- /* public Vehicle() {
-        this.name = name;
-        this.fuel = fuel;
-        this.no = no;
-    }*/
-
-
     public String getName() {
         return name;
     }
@@ -39,7 +31,7 @@ class  Vehicle{
     public void startNow(){
         System.out.println(name+"  Starting");
     }
-    public void  StopNow(){
+    public void stopNow(){
         System.out.println(name+"  Stopped");
     }
     public  void idle(){
