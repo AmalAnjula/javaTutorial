@@ -11,9 +11,7 @@ public class Student {
         this.age = age;
         this.password = password;
         this.id = id;
-
     }
-
     public String getName() {
         return name;
     }

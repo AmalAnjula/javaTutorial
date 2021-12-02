@@ -1,4 +1,5 @@
 // like filter udama super clss eka
+//100% contract ekak
 package com.amal.abstraction;
 
 public class Abstraction {

@@ -1,5 +1,4 @@
 package com.amal.sqlselect;
-
 import java.sql.*;
 
 public class SqlJob extends FindStudent {
